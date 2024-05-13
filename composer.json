@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {"CatPhotoPlugin\\": "src/"}
+    },
+    
+    "autoload-dev": {
+        "psr-4": {
+            "CatPhotoPlugin\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "10up/wp_mock": "^1.0",
+        "phpunit/phpunit": "^9.6"
+    }
+}
