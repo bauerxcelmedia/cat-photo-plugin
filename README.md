@@ -34,8 +34,13 @@ composer install
   - Sign up at [TheCatAPI](https://thecatapi.com/) to get your API key.
   - Navigate to the plugin's settings page in the WordPress admin panel.
   - Enter your API key in the designated field.
+
+**2. Set up your API Url:**
+
+  - Navigate to the plugin's settings page in the WordPress admin panel.
+  - Enter your API URL in the designated field. **Ex: https://api.thecatapi.com/v1/images/search?breed_ids=**
     
-**2. Configure the default cat breed:**
+**3. Configure the default cat breed:**
 
   - On the plugin's settings page, specify the default cat breed you want to use.
   - This breed will be used to fetch images if the post content does not specify a breed.
